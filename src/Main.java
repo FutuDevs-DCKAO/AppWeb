@@ -4,6 +4,8 @@ public class Main {
         CommitCamilo camilo = new CommitCamilo("Juan Camilo Silva Zabala", 20, "Estudiante MINTIC 2022");
         System.out.println(camilo.mensajeBienvenida());
 
+        CommitEnrique Enrique = new CommitEnrique("Manchester United",1886,"Inglaterra");
+
         Carro Diana = new Carro("Pichirilo", "ABC123", "Kia");
         System.out.println(Diana.mensajeBievenida());
 
