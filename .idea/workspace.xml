@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="21ccbc3d-0dce-49a1-9d2e-9fe818ef2363" name="Changes" comment="Mi primer commit by Oscar Alvarez" />
+=======
+    <list default="true" id="21ccbc3d-0dce-49a1-9d2e-9fe818ef2363" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/prueba.txt" afterDir="false" />
+    </list>
+>>>>>>> 0d7f61b2bc87cd7c8630af010e251fba010ed703
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +39,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "D:/ProyectosCPF2022/GitHub_Repositori/Sprint1"
+=======
+    "last_opened_file_path": "C:/Users/diani/Desktop/Repo1/Sprint1"
+>>>>>>> 0d7f61b2bc87cd7c8630af010e251fba010ed703
   }
 }]]></component>
   <component name="RunManager">
