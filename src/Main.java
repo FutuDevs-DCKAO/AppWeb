@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         CommitCamilo camilo = new CommitCamilo("Juan Camilo Silva Zabala", 20, "Estudiante MINTIC 2022");
-        camilo.mensajeBienvenida();
+        System.out.println(camilo.mensajeBienvenida());
 
         Carro Diana = new Carro("Pichirilo", "ABC123", "Kia");
         System.out.println(Diana.mensajeBievenida());
@@ -12,8 +12,9 @@ public class Main {
         oscarAlvarez.setMetros(89);
         oscarAlvarez.setHabitaciones(4);
         oscarAlvarez.setPropietario("homero simpson");
-        oscarAlvarez.mensajeCommitOscar();
+        System.out.println(oscarAlvarez.mensajeCommitOscar());
 
-
+        Mascota Nieves = new Mascota("Nieves", "Gato", "Femenino", 10);
+        System.out.println(Nieves.mostrar());
     }
 }
