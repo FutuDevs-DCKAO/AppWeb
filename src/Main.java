@@ -9,5 +9,6 @@ public class Main {
         oscarAlvarez.setMetros(89);
         oscarAlvarez.setHabitaciones(4);
         oscarAlvarez.setPropietario("homero simpson");
+        oscarAlvarez.mensajeCommitOscar();
     }
 }
