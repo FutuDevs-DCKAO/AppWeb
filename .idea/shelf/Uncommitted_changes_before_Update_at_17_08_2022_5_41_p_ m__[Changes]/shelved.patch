@@ -1,0 +1,47 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,11 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-
+-    <list default="true" id="21ccbc3d-0dce-49a1-9d2e-9fe818ef2363" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/prueba.txt" afterDir="false" />
++    <list default="true" id="21ccbc3d-0dce-49a1-9d2e-9fe818ef2363" name="Changes" comment="Mi primer commit by Diana A Rodriguez Rodriguez">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+-
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -33,7 +31,13 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "C:/Users/diani/Desktop/Repositorio1/Sprint1"
++  }
++}]]></component>
+   <component name="RunManager">
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Main" />
+@@ -87,6 +91,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Mi primer commit by Oscar Alvarez" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Mi primer commit by Oscar Alvarez" />
++    <MESSAGE value="Mi primer commit by Diana A Rodriguez Rodriguez" />
++    <option name="LAST_COMMIT_MESSAGE" value="Mi primer commit by Diana A Rodriguez Rodriguez" />
+   </component>
+ </project>
+\ No newline at end of file
