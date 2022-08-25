@@ -1,9 +1,9 @@
-public class Carro {
+public class CommitDiana {
     private String nombre;
     private String placa;
     private String marca;
 
-    public Carro(String nombre, String placa, String marca) {
+    public CommitDiana(String nombre, String placa, String marca) {
         this.nombre = nombre;
         this.placa = placa;
         this.marca = marca;

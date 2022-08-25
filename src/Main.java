@@ -6,7 +6,7 @@ public class Main {
 
         CommitEnrique Enrique = new CommitEnrique("Manchester United",1886,"Inglaterra");
 
-        Carro Diana = new Carro("Pichirilo", "ABC123", "Kia");
+        CommitDiana Diana = new CommitDiana("Pichirilo", "ABC123", "Kia");
         System.out.println(Diana.mensajeBievenida());
 
         CommitOscar oscarAlvarez = new CommitOscar("",0,"",0);
