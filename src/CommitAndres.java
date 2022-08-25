@@ -1,10 +1,10 @@
-public class Mascota {
+public class CommitAndres {
     private String nombre;
     private String especie;
     private String sexo;
     private int edad;
 
-    public Mascota(String nombre, String especie, String sexo, int edad){
+    public CommitAndres(String nombre, String especie, String sexo, int edad){
         this.nombre=nombre;
         this.especie=especie;
         this.sexo=sexo;

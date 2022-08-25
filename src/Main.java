@@ -16,7 +16,7 @@ public class Main {
         oscarAlvarez.setPropietario("homero simpson");
         System.out.println(oscarAlvarez.mensajeCommitOscar());
 
-        Mascota Nieves = new Mascota("Nieves", "Gato", "Femenino", 10);
+        CommitAndres Nieves = new CommitAndres("Nieves", "Gato", "Femenino", 10);
         System.out.println(Nieves.mostrar());
     }
 }

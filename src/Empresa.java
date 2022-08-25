@@ -5,6 +5,12 @@ public class Empresa {
     private String nitEmpresa;
 
     //Espacio para constructores
+    public Empresa(String nombreEmpresa, String direccionEmpresa, String telefonoEmpresa, String nitEmpresa){
+        this.nombreEmpresa = nombreEmpresa;
+        this.direccionEmpresa = direccionEmpresa;
+        this.telefonoEmpresa = telefonoEmpresa;
+        this.nitEmpresa = nitEmpresa;
+    }
 
     public String getNombreEmpresa() {
         return nombreEmpresa;
