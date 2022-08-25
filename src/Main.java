@@ -15,11 +15,11 @@ public class Main {
         oscarAlvarez.setHabitaciones(4);
         oscarAlvarez.setPropietario("homero simpson");
         System.out.println(oscarAlvarez.mensajeCommitOscar());*/
-        
-        //Instancia clase empresa constructor vacío
-        Empresa empresa1= new Empresa();
 
         CommitAndres Nieves = new CommitAndres("Nieves", "Gato", "Femenino", 10);
         System.out.println(Nieves.mostrar());
+
+        //Instancia clase empresa constructor vacío
+        Empresa empresa1= new Empresa();
     }
 }
