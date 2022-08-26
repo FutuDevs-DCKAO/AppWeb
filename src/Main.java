@@ -21,5 +21,10 @@ public class Main {
 
         //Instancia clase empresa constructor vacío
         Empresa empresa1= new Empresa();
+
+        //Instancia clase Empleado
+        Empleado empleado1 = new Empleado("Carolina Ruiz", "caroruiz@gmail.com",
+                "Futudevs", "Gerente");
+
     }
 }
