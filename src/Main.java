@@ -19,9 +19,6 @@ public class Main {
         /*CommitAndres Nieves = new CommitAndres("Nieves", "Gato", "Femenino", 10);
         System.out.println(Nieves.mostrar());*/
 
-        //Instancia clase empresa constructor vacío
-        Empresa empresa1= new Empresa();
-
         //Instancia clase Empleado usando método constructor con parámetros
         Empleado empleado1 = new Empleado("Carolina Ruiz", "caroruiz@gmail.com",
                 "Futudevs", "Gerente");
@@ -39,10 +36,26 @@ public class Main {
         System.out.println(empleado2.getEmpresaPerteneciente());
         System.out.println(empleado2.getRol());
 
+        //Empresa usando constructor con parametros
+        Empresa empresa1 = new Empresa("Camara de Comercio Bogota", "Avenida El Dorado nro. 68D - 35", "6015941000", "8600073229");
 
+        //Empresa constructor vacio
+        Empresa empresa2 = new Empresa();
 
+        empresa2.setNombreEmpresa("pollito");
+        empresa2.setDireccionEmpresa("Avenida Boyaca nro. 27A-70");
+        empresa2.setTelefonoEmpresa("601549283");
+        empresa2.setNitEmpresa("5216348214524");
 
+        System.out.println("Empresa 1:\n    Nombre de la empresa: " + empresa1.getNombreEmpresa());
+        System.out.println("    Direccion de la empresa: " + empresa1.getDireccionEmpresa());
+        System.out.println("    Telefono de la empresa: " + empresa1.getTelefonoEmpresa());
+        System.out.println("    NIT de la empresa: " + empresa1.getNitEmpresa());
 
+        System.out.println("Empresa 2:\n    Nombre de la empresa: " + empresa2.getNombreEmpresa());
+        System.out.println("    Direccion de la empresa: " + empresa2.getDireccionEmpresa());
+        System.out.println("    Telefono de la empresa: " + empresa2.getTelefonoEmpresa());
+        System.out.println("    NIT de la empresa: " + empresa2.getNitEmpresa());
 
 
     }
