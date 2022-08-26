@@ -14,6 +14,10 @@ public class MovimientoDinero {
         this.usuario = usuario;
     }
 
+    public MovimientoDinero(){
+
+    }
+
     public Double getMontoMovimiento() {
         return montoMovimiento;
     }
