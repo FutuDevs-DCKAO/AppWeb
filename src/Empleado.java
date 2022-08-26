@@ -8,8 +8,9 @@ public class Empleado {
         this.rol = rol;
     }
 
-    //public Empleado() {
-    //}
+    public Empleado() {
+
+    }
 
 
     public String getNombre() {

@@ -7,37 +7,37 @@
 
     <list default="true" id="21ccbc3d-0dce-49a1-9d2e-9fe818ef2363" name="Changes" comment="">
 <<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/src/prueba.txt" afterDir="false" />
->>>>>>> 280f214fc2d67fcb8886ecf5969af9f1648361d7
-    </list>
-
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
+        <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+        <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+  =======
+        <change afterPath="$PROJECT_DIR$/src/prueba.txt" afterDir="false" />
+  >>>>>>> 280f214fc2d67fcb8886ecf5969af9f1648361d7
       </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2DSnVgaXZJT1DczADdKn3glmuD7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+
+      <option name="SHOW_DIALOG" value="false" />
+      <option name="HIGHLIGHT_CONFLICTS" value="true" />
+      <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+      <option name="LAST_RESOLUTION" value="IGNORE" />
+    </component>
+    <component name="FileTemplateManagerImpl">
+      <option name="RECENT_TEMPLATES">
+        <list>
+          <option value="Class" />
+        </list>
+      </option>
+    </component>
+    <component name="Git.Settings">
+      <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    </component>
+    <component name="MarkdownSettingsMigration">
+      <option name="stateVersion" value="1" />
+    </component>
+    <component name="ProjectId" id="2DSnVgaXZJT1DczADdKn3glmuD7" />
+    <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+    <component name="ProjectViewState">
+      <option name="hideEmptyMiddlePackages" value="true" />
+      <option name="showLibraryContents" value="true" />
+    </component>
 <<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
