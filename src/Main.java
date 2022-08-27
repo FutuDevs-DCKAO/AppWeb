@@ -58,14 +58,14 @@ public class Main {
         System.out.println("    NIT de la empresa: " + empresa2.getNitEmpresa());
 
         //MovimientoDinero usando constructor con parametros
-        MovimientoDinero MovimientoDinero1 = new MovimientoDinero(5560000.0,3500000.0,2060000.0,"Compra y venta de insumos","Enrique Jaimes Sanchez");
+        MovimientoDinero MovimientoDinero1 = new MovimientoDinero(5560000.0,3500000.0,2060000.0,"Compra y venta de insumos",empleado1);
 
         //MovimientoDinero usando método constructor vacío
         MovimientoDinero MovimientoDinero2 = new MovimientoDinero();
         MovimientoDinero2.setMontoMovimiento(6750000.0);
         MovimientoDinero2.setMontosPositivos(2840000.0);
         MovimientoDinero2.setMontosNegativos(3470000.0);
-        MovimientoDinero2.setUsuario("Luis Jaimes");
+        MovimientoDinero2.setUsuario(empleado2);
 
         System.out.println(MovimientoDinero2.getMontoMovimiento());
         System.out.println(MovimientoDinero2.getMontosPositivos());
