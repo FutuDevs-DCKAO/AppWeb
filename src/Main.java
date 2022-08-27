@@ -19,23 +19,6 @@ public class Main {
         /*CommitAndres Nieves = new CommitAndres("Nieves", "Gato", "Femenino", 10);
         System.out.println(Nieves.mostrar());*/
 
-        //Instancia clase Empleado usando método constructor con parámetros
-        Empleado empleado1 = new Empleado("Carolina Ruiz", "caroruiz@gmail.com",
-                "Futudevs", "Gerente");
-
-        //Instancia clase Empleado usando método constructor vacío
-        Empleado empleado2 = new Empleado();
-
-        empleado2.setNombre("Laura Camila");
-        empleado2.setCorreo("lauCamila1@gmail.com");
-        empleado2.setEmpresaPerteneciente("FutuDevs");
-        empleado2.setNombre("Asistente comercial");
-
-        System.out.println(empleado2.getNombre());
-        System.out.println(empleado2.getCorreo());
-        System.out.println(empleado2.getEmpresaPerteneciente());
-        System.out.println(empleado2.getRol());
-
         //Empresa usando constructor con parametros
         Empresa empresa1 = new Empresa("Camara de Comercio Bogota", "Avenida El Dorado nro. 68D - 35", "6015941000", "8600073229");
 
@@ -57,6 +40,23 @@ public class Main {
         System.out.println("    Telefono de la empresa: " + empresa2.getTelefonoEmpresa());
         System.out.println("    NIT de la empresa: " + empresa2.getNitEmpresa());
 
+        //Instancia clase Empleado usando método constructor con parámetros
+        Empleado empleado1 = new Empleado("Carolina Ruiz", "caroruiz@gmail.com",
+                "Futudevs", empresa1);
+
+        //Instancia clase Empleado usando método constructor vacío
+        Empleado empleado2 = new Empleado();
+
+        empleado2.setNombre("Laura Camila");
+        empleado2.setCorreo("lauCamila1@gmail.com");
+        empleado2.setEmpresaPerteneciente(empresa2);
+        empleado2.setNombre("Asistente comercial");
+
+        System.out.println(empleado2.getNombre());
+        System.out.println(empleado2.getCorreo());
+        System.out.println(empleado2.getEmpresaPerteneciente());
+        System.out.println(empleado2.getRol());
+
         //MovimientoDinero usando constructor con parametros
         MovimientoDinero MovimientoDinero1 = new MovimientoDinero(5560000.0,3500000.0,2060000.0,"Compra y venta de insumos",empleado1);
 
@@ -71,9 +71,6 @@ public class Main {
         System.out.println(MovimientoDinero2.getMontosPositivos());
         System.out.println(MovimientoDinero2.getMontosNegativos());
         System.out.println(MovimientoDinero2.getUsuario());
-
-
-
 
 
     }

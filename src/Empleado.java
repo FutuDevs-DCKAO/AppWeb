@@ -1,17 +1,17 @@
 public class Empleado {
-    private String nombre, correo, empresaPerteneciente, rol;
+    private String nombre, correo, rol;
+    private Empresa empresaPerteneciente;
 
-    public Empleado(String nombre, String correo, String empresaPerteneciente, String rol){
+    public Empleado(String nombre, String correo, String rol, Empresa empresaPerteneciente) {
         this.nombre = nombre;
         this.correo = correo;
-        this.empresaPerteneciente = empresaPerteneciente;
         this.rol = rol;
+        this.empresaPerteneciente = empresaPerteneciente;
     }
 
     public Empleado() {
 
     }
-
 
     public String getNombre() {
         return nombre;
@@ -29,11 +29,11 @@ public class Empleado {
         this.correo = correo;
     }
 
-    public String getEmpresaPerteneciente() {
+    public Empresa getEmpresaPerteneciente() {
         return empresaPerteneciente;
     }
 
-    public void setEmpresaPerteneciente(String empresaPerteneciente) {
+    public void setEmpresaPerteneciente(Empresa empresaPerteneciente) {
         this.empresaPerteneciente = empresaPerteneciente;
     }
 
